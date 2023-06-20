@@ -1,0 +1,8 @@
+C:\Users\Nimap\Desktop\PartialExp\PartialExp\bin\Debug\PartialExp.exe.config
+C:\Users\Nimap\Desktop\PartialExp\PartialExp\bin\Debug\PartialExp.exe
+C:\Users\Nimap\Desktop\PartialExp\PartialExp\bin\Debug\PartialExp.pdb
+C:\Users\Nimap\Desktop\PartialExp\PartialExp\obj\Debug\PartialExp.csproj.AssemblyReference.cache
+C:\Users\Nimap\Desktop\PartialExp\PartialExp\obj\Debug\PartialExp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nimap\Desktop\PartialExp\PartialExp\obj\Debug\PartialExp.csproj.CoreCompileInputs.cache
+C:\Users\Nimap\Desktop\PartialExp\PartialExp\obj\Debug\PartialExp.exe
+C:\Users\Nimap\Desktop\PartialExp\PartialExp\obj\Debug\PartialExp.pdb
