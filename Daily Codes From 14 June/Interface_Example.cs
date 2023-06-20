@@ -31,13 +31,6 @@ namespace Daily_Codes_From_14_June
             Manager m= new Manager();
             ((Employee)m).EmployeeDetails();
                 Console.ReadLine();
-
-            int i = 0;
-            while (i<100)
-            {
-              Console.WriteLine(i);
-                i++;
-            }
             
         }
     }
