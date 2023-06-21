@@ -34,8 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.Class3</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.Lambada_Expression</StartupObject>
   </PropertyGroup>
+  <PropertyGroup />
   <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract_Class.cs" />
+    <Compile Include="Delegate.cs" />
+    <Compile Include="DiamondProblem.cs" />
+    <Compile Include="Lambada_Expression.cs" />
+    <Compile Include="MethodHiding.cs" />
     <Compile Include="hello.cs" />
     <Compile Include="Interface_Example.cs" />
     <Compile Include="Program.cs" />
