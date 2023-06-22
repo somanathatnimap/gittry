@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.Lambada_Expression</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.HashClass</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -52,6 +52,7 @@
     <Compile Include="Abstract_Class.cs" />
     <Compile Include="Delegate.cs" />
     <Compile Include="DiamondProblem.cs" />
+    <Compile Include="HashClass.cs" />
     <Compile Include="Lambada_Expression.cs" />
     <Compile Include="MethodHiding.cs" />
     <Compile Include="hello.cs" />
