@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{44B80B4A-2AEE-4D50-9CED-A9A280A1F045}</ProjectGuid>
+    <ProjectGuid>{2E4E4CC0-8D2A-4D80-9555-CA8605BA3EF3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Daily_Codes_From_14_June</RootNamespace>
-    <AssemblyName>Daily Codes From 14 June</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RootNamespace>PrimeNo</RootNamespace>
+    <AssemblyName>PrimeNo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,11 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.OpratorOverloading</StartupObject>
-  </PropertyGroup>
-  <PropertyGroup />
-  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,15 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract_Class.cs" />
-    <Compile Include="Delegate.cs" />
-    <Compile Include="DiamondProblem.cs" />
-    <Compile Include="HashClass.cs" />
-    <Compile Include="Lambada_Expression.cs" />
-    <Compile Include="MethodHiding.cs" />
-    <Compile Include="hello.cs" />
-    <Compile Include="Interface_Example.cs" />
-    <Compile Include="OpratorOverloading.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
