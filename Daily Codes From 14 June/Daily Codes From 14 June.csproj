@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.IEnumerable_Demo.Program</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.EinumvsEinum.IEnumerablevsIEnumerator</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -52,6 +52,7 @@
     <Compile Include="Abstract_Class.cs" />
     <Compile Include="Delegate.cs" />
     <Compile Include="DiamondProblem.cs" />
+    <Compile Include="EinumvsEinum.cs" />
     <Compile Include="HashClass.cs" />
     <Compile Include="IEnumerable_Demo.cs" />
     <Compile Include="Lambada_Expression.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="hello.cs" />
     <Compile Include="Interface_Example.cs" />
     <Compile Include="OpratorOverloading.cs" />
+    <Compile Include="OutRef.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
