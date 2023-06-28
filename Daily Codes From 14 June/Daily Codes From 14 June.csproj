@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.EinumvsEinum.IEnumerablevsIEnumerator</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.MultiThreading2.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -59,6 +59,9 @@
     <Compile Include="MethodHiding.cs" />
     <Compile Include="hello.cs" />
     <Compile Include="Interface_Example.cs" />
+    <Compile Include="MultiThreading.cs" />
+    <Compile Include="MultiThreading2.cs" />
+    <Compile Include="MultThreading1.cs" />
     <Compile Include="OpratorOverloading.cs" />
     <Compile Include="OutRef.cs" />
     <Compile Include="Program.cs" />
