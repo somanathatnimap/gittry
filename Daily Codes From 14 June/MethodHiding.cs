@@ -24,8 +24,6 @@ namespace Daily_Codes_From_14_June
             }
 
         }
-
-
         static void Main(string[] args)
         {
             BaseClass b = new BaseClass();

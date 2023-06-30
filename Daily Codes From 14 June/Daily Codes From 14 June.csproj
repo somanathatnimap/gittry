@@ -23,6 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.TPL_Exp.program</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.PointerExp.Prorgam</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -50,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract_Class.cs" />
+    <Compile Include="AsyncandAwait.cs" />
     <Compile Include="Delegate.cs" />
     <Compile Include="DiamondProblem.cs" />
     <Compile Include="EinumvsEinum.cs" />
@@ -64,6 +66,7 @@
     <Compile Include="MultThreading1.cs" />
     <Compile Include="OpratorOverloading.cs" />
     <Compile Include="OutRef.cs" />
+    <Compile Include="PointerExp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TPL_Exp.cs" />
