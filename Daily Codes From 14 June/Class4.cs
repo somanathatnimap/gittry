@@ -16,7 +16,7 @@ namespace Daily_Codes_From_14_June
              Console.WriteLine(" n:"+n);
          }
      }
-     {
+     { //default constructor
          static void Main()
          {
              program p=new program();
