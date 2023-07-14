@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.ListPractice</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.OOPs_Concepts_Practice</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -68,6 +68,7 @@
     <Compile Include="MultiThreading.cs" />
     <Compile Include="MultiThreading2.cs" />
     <Compile Include="MultThreading1.cs" />
+    <Compile Include="OOPs_Concepts_Practice.cs" />
     <Compile Include="OpratorOverloading.cs" />
     <Compile Include="OutRef.cs" />
     <Compile Include="PointerExp.cs" />
