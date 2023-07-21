@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.TryCatch</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.LambdaExpression.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -61,6 +61,7 @@
     <Compile Include="HashClass.cs" />
     <Compile Include="IEnumerable_Demo.cs" />
     <Compile Include="Lambada_Expression.cs" />
+    <Compile Include="LambdaExpression.cs" />
     <Compile Include="LinqExp.cs" />
     <Compile Include="ListPractice.cs" />
     <Compile Include="MethodHiding.cs" />
