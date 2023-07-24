@@ -15,6 +15,12 @@ namespace Daily_Codes_From_14_June
             static void Main(string[] args)
             {
                 int[] arr = { 1, 2, 3, 4, 5 };
+                var abb = from i in arr where i > 3 select i;
+                foreach(int i in abb)
+                {
+                    Console.WriteLine("hii"+i);
+                }
+
                 // var a = from i in arr orderby i descending select i;
                 //var a= from i in arr where arr.Contains(2) select arr;
                 String[] arr1 = { "soma", "viraj", "vivek", "gaurav", "omkar" };

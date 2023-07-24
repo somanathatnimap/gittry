@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.LambdaExpression.Program</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.LazyLoading.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract_Class.cs" />
+    <Compile Include="ArmstrongNo.cs" />
     <Compile Include="AsyncandAwait.cs" />
     <Compile Include="Class4.cs" />
     <Compile Include="Delegate.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="IEnumerable_Demo.cs" />
     <Compile Include="Lambada_Expression.cs" />
     <Compile Include="LambdaExpression.cs" />
+    <Compile Include="LazyLoading.cs" />
     <Compile Include="LinqExp.cs" />
     <Compile Include="ListPractice.cs" />
     <Compile Include="MethodHiding.cs" />
