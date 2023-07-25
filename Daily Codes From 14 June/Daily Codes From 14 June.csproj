@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.LazyLoading.Program</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.PatternPrinting</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -75,6 +75,7 @@
     <Compile Include="OOPs_Concepts_Practice.cs" />
     <Compile Include="OpratorOverloading.cs" />
     <Compile Include="OutRef.cs" />
+    <Compile Include="PatternPrinting.cs" />
     <Compile Include="PointerExp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
