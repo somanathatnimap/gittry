@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.PatternPrinting</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.IpAddress</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -60,15 +60,19 @@
     <Compile Include="Enrollment.cs" />
     <Compile Include="FileSystem.cs" />
     <Compile Include="HashClass.cs" />
+    <Compile Include="HighestElement.cs" />
     <Compile Include="IEnumerable_Demo.cs" />
+    <Compile Include="IpAddress.cs" />
     <Compile Include="Lambada_Expression.cs" />
     <Compile Include="LambdaExpression.cs" />
     <Compile Include="LazyLoading.cs" />
+    <Compile Include="LinqArray.cs" />
     <Compile Include="LinqExp.cs" />
     <Compile Include="ListPractice.cs" />
     <Compile Include="MethodHiding.cs" />
     <Compile Include="hello.cs" />
     <Compile Include="Interface_Example.cs" />
+    <Compile Include="MethodOverloading.cs" />
     <Compile Include="MultiThreading.cs" />
     <Compile Include="MultiThreading2.cs" />
     <Compile Include="MultThreading1.cs" />
