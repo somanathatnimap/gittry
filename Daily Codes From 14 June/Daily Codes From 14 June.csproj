@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract_Class.cs" />
+    <Compile Include="AllOOPs.cs" />
     <Compile Include="All_Concepts.cs" />
     <Compile Include="ArmstrongNo.cs" />
     <Compile Include="AsyncandAwait.cs" />
