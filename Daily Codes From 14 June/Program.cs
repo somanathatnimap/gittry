@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Daily_Codes_From_14_June
 {
-    internal class Program
+    internal class Programm
     {
         static void Main(string[] args)
         {
