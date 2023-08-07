@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.sechigh</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.TwoSumLeetCode</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -58,6 +58,7 @@
     <Compile Include="Class4.cs" />
     <Compile Include="Delegate.cs" />
     <Compile Include="DiamondProblem.cs" />
+    <Compile Include="DublicateNoInList.cs" />
     <Compile Include="EinumvsEinum.cs" />
     <Compile Include="encapsulate.cs" />
     <Compile Include="Enrollment.cs" />
@@ -71,6 +72,7 @@
     <Compile Include="LazyLoading.cs" />
     <Compile Include="LinqArray.cs" />
     <Compile Include="LinqExp.cs" />
+    <Compile Include="ListLambda.cs" />
     <Compile Include="ListPractice.cs" />
     <Compile Include="MethodHiding.cs" />
     <Compile Include="hello.cs" />
@@ -79,6 +81,7 @@
     <Compile Include="MultiThreading.cs" />
     <Compile Include="MultiThreading2.cs" />
     <Compile Include="MultThreading1.cs" />
+    <Compile Include="Oddevenseprate.cs" />
     <Compile Include="OOPs_Concepts_Practice.cs" />
     <Compile Include="OpratorOverloading.cs" />
     <Compile Include="OutRef.cs" />
@@ -93,6 +96,7 @@
     <Compile Include="secondhighest.cs" />
     <Compile Include="TPL_Exp.cs" />
     <Compile Include="TryCatch.cs" />
+    <Compile Include="TwoSumLeetCode.cs" />
     <Compile Include="UniContextEntities.cs" />
     <Compile Include="varvsdnyamic.cs" />
   </ItemGroup>
