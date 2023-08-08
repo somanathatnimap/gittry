@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.TwoSumLeetCode</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.Pattern5</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -85,6 +85,7 @@
     <Compile Include="OOPs_Concepts_Practice.cs" />
     <Compile Include="OpratorOverloading.cs" />
     <Compile Include="OutRef.cs" />
+    <Compile Include="Pattern5.cs" />
     <Compile Include="PatternPrinting.cs" />
     <Compile Include="PointerExp.cs" />
     <Compile Include="Practice.cs" />
