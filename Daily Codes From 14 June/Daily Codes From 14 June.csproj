@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.Pattern5</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.SortedList</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -95,6 +95,7 @@
     <Compile Include="ReverseNo.cs" />
     <Compile Include="sechigh.cs" />
     <Compile Include="secondhighest.cs" />
+    <Compile Include="SortedList.cs" />
     <Compile Include="TPL_Exp.cs" />
     <Compile Include="TryCatch.cs" />
     <Compile Include="TwoSumLeetCode.cs" />
