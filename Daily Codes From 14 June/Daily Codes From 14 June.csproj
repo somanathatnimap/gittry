@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.Sortarray.Program</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.Logicals</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -74,6 +74,7 @@
     <Compile Include="LinqExp.cs" />
     <Compile Include="ListLambda.cs" />
     <Compile Include="ListPractice.cs" />
+    <Compile Include="Logicals.cs" />
     <Compile Include="MethodHiding.cs" />
     <Compile Include="hello.cs" />
     <Compile Include="Interface_Example.cs" />
