@@ -9,9 +9,93 @@ namespace Daily_Codes_From_14_June
 {
     internal class Logicals
     {
-       
+        public Logicals(out int i) 
+        {
+             i = 12;
+            Console.WriteLine(i);
+        }
+        public Logicals(out int i,string str)
+        {
+            i = 122;
+            Console.WriteLine(i);
+        }
+        public static void Main(string[] args)
+        {
+            int i;
+            Logicals logicals = new Logicals(out i);
+            Console.WriteLine(i);
+            string str = "soma";
+            Logicals logicals1 = new Logicals(out i,str);
+
+            Console.ReadLine();
+        }
+        /*
+        public void Hello(ref int i)
+        {
+            i=i+1;
+            Console.WriteLine(i);
+        }
+        public static void Main(string[] args)
+        {
+            int i= 0;
+            Logicals hw = new Logicals();
+            hw.Hello(ref i);
+            Console.WriteLine(i);
+            // Console.WriteLine ();
+            Console.ReadLine();
+        }
+        */
     }
 }
+
+
+/*
+ 
+{
+
+
+            for (int i = 2; i < 100; i++)
+            {
+                bool isPrime = true;
+                for (int j = 2; j < 100; j++)
+                {
+                    if (i % j != 0 && i != j)
+                    {
+
+                        isPrime = false;
+                    }
+                }
+                if (isPrime)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+            Console.ReadLine();
+        }
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string str="Hello World";
+        char ch;
+        string rev="";
+       // for(int i=str.Length-1;i>=0;i--)
+      // foreach(char i in str)
+      int i=str.Length-1;
+      while(i>=0)
+        {
+            ch=str[i];
+            rev=rev+ch;
+            i--;
+        }
+        Console.WriteLine (rev);
+    }
+}
+
+ */
 
 /*
  // Online C# Editor for free
@@ -119,6 +203,31 @@ class fibbonocy
                 rev = ch + rev;
             }
             Console.WriteLine(rev);
+            Console.ReadLine();
+        }
+
+
+
+public static void Main(string[] args)
+        {
+            int[] arr = { 2, 4, 2, 6, 8, 4, 9, 4 };
+            int highest = 0;
+            int sechighest = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] > highest)
+                {
+                    sechighest = highest;
+                    highest = arr[i];
+                }
+                else if (arr[i] < highest && arr[i] > sechighest)
+                {
+                   // sechighest = arr[i];
+                   // Console.WriteLine(arr[i]);
+                }
+
+            }
+             Console.WriteLine(sechighest);
             Console.ReadLine();
         }
  
