@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Daily_Codes_From_14_June
 {
-    internal class dependancyinjection1
+    internal class dependancyinjection2
     {
-        //cnotructor injections
+        //dependancy injection using property injection
         public interface IAccount
         {
             void Details();
@@ -17,41 +17,35 @@ namespace Daily_Codes_From_14_June
         {
             public void Details()
             {
-                Console.WriteLine("balance from current account");
+                Console.WriteLine("Current Account");
             }
         }
         public class SavingAccount : IAccount
         {
             public void Details()
             {
-                Console.WriteLine("balance from current account");
+                Console.WriteLine("Saving Account");
             }
         }
-        class Account
+        public class Account
         {
-            private IAccount account;
-            public Account(IAccount account)
-            {
-                this.account = account;
-            }
-            public void printDetails()
+            public IAccount account { get; set; }
+            public void Details()
             {
                 account.Details();
             }
         }
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-            IAccount sa = new SavingAccount();
-            Account account = new Account(sa);
+            Account sa = new Account();
+            sa.account = new SavingAccount();
             sa.Details();
-
-
-            IAccount ca = new CurrentAccount();
-            Account account1 = new Account(ca);
+            
+            Account ca = new Account();
+            ca.account = new CurrentAccount();
             ca.Details();
-
             Console.ReadLine();
-
         }
     }
 }
+

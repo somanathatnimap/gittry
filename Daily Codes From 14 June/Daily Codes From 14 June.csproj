@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Daily_Codes_From_14_June.dependancyinjection</StartupObject>
+    <StartupObject>Daily_Codes_From_14_June.dependancyinjection3</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -58,6 +58,9 @@
     <Compile Include="Class4.cs" />
     <Compile Include="Delegate.cs" />
     <Compile Include="dependancyinjection.cs" />
+    <Compile Include="dependancyinjection1.cs" />
+    <Compile Include="dependancyinjection2.cs" />
+    <Compile Include="dependancyinjection3.cs" />
     <Compile Include="DiamondProblem.cs" />
     <Compile Include="DublicateNoInList.cs" />
     <Compile Include="EinumvsEinum.cs" />
