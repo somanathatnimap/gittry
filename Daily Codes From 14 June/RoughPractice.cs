@@ -22,7 +22,7 @@ namespace Daily_Codes_From_14_June
         static void Main(string[] args)
         {
           RoughPractice roughPractice = new RoughPractice();
-            int a;
+            int a=10;
             roughPractice.sum(ref a);
 
             roughPractice.rum(out a);
