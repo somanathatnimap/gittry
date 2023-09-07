@@ -7,29 +7,21 @@ using System.Threading.Tasks;
 
 namespace Daily_Codes_From_14_June
 {
+    
     internal class RoughPractice
     {
-        public int sum(ref int x)
-        {
-            x = x + 1;
-            return x;
-        }
-        public int rum(out int x)
-        {
-            x = 22;
-            return x;
-        }
-        static void Main(string[] args)
-        {
-          RoughPractice roughPractice = new RoughPractice();
-            int a=10;
-            roughPractice.sum(ref a);
-
-            roughPractice.rum(out a);
-            Console.ReadLine();
+            static async Task Main()
+            {
+                for (int i = 1; i <= 100; i++)
+                {
+                    Console.WriteLine(i);
+                    await Task.Delay(100); 
+                }
+            }
         }
     }
-    }
+    
+    
 
 
 /*
@@ -86,4 +78,42 @@ public int sum(ref int x)
             roughPractice.sum(ref a);
             Console.ReadLine();
         }
+public int sum(ref int x)
+        {
+            x = x + 1;
+            return x;
+        }
+        public int rum(out int x)
+        {
+            x = 22;
+            return x;
+        }
+        static void Main(string[] args)
+        {
+          RoughPractice roughPractice = new RoughPractice();
+            int a=10;
+            roughPractice.sum(ref a);
+
+            roughPractice.rum(out a);
+            Console.ReadLine();
+        }
+
+Task t1= Task.Run(() =>
+            {
+                for (int i = 0; i < 100; i++)
+                {
+                    Console.WriteLine("first for loop");
+                }
+            });
+            Task t2 = Task.Run(() =>
+            {
+                for (int i = 0; i < 100; i++)
+                {
+
+                    Console.WriteLine("second for loop");
+                }
+
+            });
+            Task.WaitAll(t1);
+            Console.ReadLine()
  */
