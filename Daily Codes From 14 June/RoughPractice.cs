@@ -10,18 +10,32 @@ namespace Daily_Codes_From_14_June
     
     internal class RoughPractice
     {
-            static async Task Main()
+        class ab
+        {
+            public void sign()
             {
-                for (int i = 1; i <= 100; i++)
-                {
-                    Console.WriteLine(i);
-                    await Task.Delay(100); 
-                }
+                Console.WriteLine("from ab");
             }
+        }
+        class bc : ab
+        {
+            public new void sign()
+            {
+                Console.WriteLine("from second");
+            }
+        }
+ 
+        public static void Main(string[] args)
+        {
+            bc b=new bc();
+            b.sign();
+            Console.ReadLine();
         }
     }
     
-    
+    }
+
+
 
 
 /*
@@ -116,4 +130,60 @@ Task t1= Task.Run(() =>
             });
             Task.WaitAll(t1);
             Console.ReadLine()
+
+static async Task Main()
+            {
+                for (int i = 1; i <= 100; i++)
+                {
+                    Console.WriteLine(i);
+                    await Task.Delay(100); 
+                }
+            }
+        }
+
+ {
+            int[] arr = { 2, 4, 5, 6, 7, 3, 7, 9, 8, 6 };
+            int large = 0;
+            int seclarge = 0;
+            int thirdlarge = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] > large)
+                {
+                    thirdlarge = seclarge;
+                    seclarge = large;
+                    large = arr[i];
+                }
+                else if (arr[i] < large && arr[i] < seclarge && arr[i] > thirdlarge)
+                {
+                    thirdlarge = arr[i];
+                }
+            }
+            Console.WriteLine(thirdlarge);
+        }
+{
+                int[] arr = { 2, 4, 5, 6, 7, 3, 7, 9, 8, 6 };
+                int large = 0;
+                int seclarge = 0;
+                int thirdlarge = 0;
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    if (arr[i] > large)
+                    {
+                        thirdlarge = seclarge;
+                        seclarge = large;
+                        large = arr[i];
+                    }
+                    else if (arr[i] < large && arr[i] > seclarge)
+                    {
+                        thirdlarge = seclarge;
+                        seclarge = arr[i];
+                    }
+                    else if (arr[i] < seclarge && arr[i] > thirdlarge)
+                    {
+                        thirdlarge = arr[i];
+                    }
+                }
+                Console.WriteLine(thirdlarge);
+            }
  */
